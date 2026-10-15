@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03E12C943E0DA4E57597FF38 /* LiltCore in Frameworks */ = {isa = PBXBuildFile; productRef = 1AA112500484EEE08EAA47F4 /* LiltCore */; };
+		2612399EFCBF0E84C8AEB2BC /* MazeCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243574693C557CD77D405912 /* MazeCreation.swift */; };
+		2C4BC8EDDBB2CC036179E889 /* Models in Resources */ = {isa = PBXBuildFile; fileRef = 2A4C513916A213F40290E793 /* Models */; };
+		3C6AA726F47B8C58156C8626 /* MotionInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBF34B1DB67C0979EDE6019 /* MotionInput.swift */; };
+		44D99802325D4A031B9C00B7 /* LiltTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A3C7B12BECDF693A6C370B /* LiltTheme.swift */; };
+		55A17AA56683637BE2691C56 /* CreateMazeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4998AD84E240C1E9490859 /* CreateMazeView.swift */; };
+		5A84790BDC24917C97CABBAA /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31DEF815B22D7D9E53D8DB3 /* CollectionView.swift */; };
+		5D4EDEA18BA2B0153529F6E7 /* OfflineIntelligence in Frameworks */ = {isa = PBXBuildFile; productRef = CE813EAC48D72B0D63053F43 /* OfflineIntelligence */; };
+		66B673377B5C43C110347817 /* LiltApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E394852AE8D834D4A29D0380 /* LiltApp.swift */; };
+		777E81BB2A4B06653A36406B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8A8064845DF7754A30BFC8 /* SettingsView.swift */; };
+		93A188CFC8243BE541C91902 /* OfflineIntelligenceMLX in Frameworks */ = {isa = PBXBuildFile; productRef = D76196629B9A414BB7305921 /* OfflineIntelligenceMLX */; };
+		96388367A96A23A3002B233F /* RunPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63BF8B63083350246670617 /* RunPersistence.swift */; };
+		A5766089DD2012F4EB3219A4 /* GameSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1C7A0F69B252C983CF2580 /* GameSession.swift */; };
+		AB811DDDA6645EB8A61BF98F /* Board.metal in Resources */ = {isa = PBXBuildFile; fileRef = 783A387703A54A78E0DF9A73 /* Board.metal */; };
+		AC2942CD0C3C4FB266056BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDCE197DE081B471B945A53 /* Assets.xcassets */; };
+		AC54916A00DB4C800F8DC7BA /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2A66A160E97D140378F291 /* GameView.swift */; };
+		CD9061DFDFCF7444EF3A541E /* LiltRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F788B3E05698591059553F55 /* LiltRootView.swift */; };
+		D891FD16851772EC79513156 /* StoredMaze.swift in Sources */ = {isa = PBXBuildFile; fileRef = E394DDED7B5300DD67416D53 /* StoredMaze.swift */; };
+		DA8506A645A57D787B1CCD0B /* BoardMetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9FBAEFD42622BEA4D791A7 /* BoardMetalView.swift */; };
+		E1B3DD8A05B5E9B5AB7D2256 /* GameFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3EABE04EC8D740C3536DE1 /* GameFeedback.swift */; };
+		F221FD3E0D3B0FD9625E27DF /* PlayHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530163CA47FC0D26492CA36B /* PlayHomeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		243574693C557CD77D405912 /* MazeCreation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazeCreation.swift; sourceTree = "<group>"; };
+		249783FB1C9046D0CD0E8B01 /* Lilt */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Lilt; path = .; sourceTree = SOURCE_ROOT; };
+		24A3C7B12BECDF693A6C370B /* LiltTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiltTheme.swift; sourceTree = "<group>"; };
+		2A4C513916A213F40290E793 /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Models; path = App/Resources/Models; sourceTree = SOURCE_ROOT; };
+		2EFE1027E102460781174D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4C3EABE04EC8D740C3536DE1 /* GameFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFeedback.swift; sourceTree = "<group>"; };
+		52E413CC03F53309102079D9 /* Lilt.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Lilt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		530163CA47FC0D26492CA36B /* PlayHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayHomeView.swift; sourceTree = "<group>"; };
+		5C4AD833002FDB37373213B0 /* MLX */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MLX; path = ../OfflineIntelligenceKit/MLX; sourceTree = SOURCE_ROOT; };
+		6C2A66A160E97D140378F291 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		783A387703A54A78E0DF9A73 /* Board.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Board.metal; sourceTree = "<group>"; };
+		7EBBFBC3283E22B2091DEEB2 /* Lilt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lilt.entitlements; sourceTree = "<group>"; };
+		8A9FBAEFD42622BEA4D791A7 /* BoardMetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardMetalView.swift; sourceTree = "<group>"; };
+		9B1C7A0F69B252C983CF2580 /* GameSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSession.swift; sourceTree = "<group>"; };
+		A6FDD2FBEA4EDF7BE9E69437 /* OfflineIntelligenceKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = OfflineIntelligenceKit; path = ../OfflineIntelligenceKit; sourceTree = SOURCE_ROOT; };
+		BA4998AD84E240C1E9490859 /* CreateMazeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMazeView.swift; sourceTree = "<group>"; };
+		BFBF34B1DB67C0979EDE6019 /* MotionInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionInput.swift; sourceTree = "<group>"; };
+		D63BF8B63083350246670617 /* RunPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunPersistence.swift; sourceTree = "<group>"; };
+		E31DEF815B22D7D9E53D8DB3 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		E394852AE8D834D4A29D0380 /* LiltApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiltApp.swift; sourceTree = "<group>"; };
+		E394DDED7B5300DD67416D53 /* StoredMaze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoredMaze.swift; sourceTree = "<group>"; };
+		EFDCE197DE081B471B945A53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F788B3E05698591059553F55 /* LiltRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiltRootView.swift; sourceTree = "<group>"; };
+		FF8A8064845DF7754A30BFC8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB733314E65D9AAF3DBD5A18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E12C943E0DA4E57597FF38 /* LiltCore in Frameworks */,
+				5D4EDEA18BA2B0153529F6E7 /* OfflineIntelligence in Frameworks */,
+				93A188CFC8243BE541C91902 /* OfflineIntelligenceMLX in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33C956998B82171927526CF8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9B1C7A0F69B252C983CF2580 /* GameSession.swift */,
+				D63BF8B63083350246670617 /* RunPersistence.swift */,
+				E394DDED7B5300DD67416D53 /* StoredMaze.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		45723869355B6CCB9938CC33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52E413CC03F53309102079D9 /* Lilt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		641A3C8B32D05623B346FD65 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				249783FB1C9046D0CD0E8B01 /* Lilt */,
+				5C4AD833002FDB37373213B0 /* MLX */,
+				A6FDD2FBEA4EDF7BE9E69437 /* OfflineIntelligenceKit */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		8A3E909122EC1461C1900987 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EFDCE197DE081B471B945A53 /* Assets.xcassets */,
+				2EFE1027E102460781174D07 /* Info.plist */,
+				7EBBFBC3283E22B2091DEEB2 /* Lilt.entitlements */,
+				E394852AE8D834D4A29D0380 /* LiltApp.swift */,
+				33C956998B82171927526CF8 /* Models */,
+				AA2A44C21AB78BE9373B41BD /* Rendering */,
+				F4C04615713C827E8CD2C250 /* Resources */,
+				9B04509BA38DF77EE5C4234C /* Services */,
+				CA620C259BE26D34ED921076 /* Views */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8CE702A5C3E53EBEB4C9EDB6 = {
+			isa = PBXGroup;
+			children = (
+				8A3E909122EC1461C1900987 /* App */,
+				641A3C8B32D05623B346FD65 /* Packages */,
+				45723869355B6CCB9938CC33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B04509BA38DF77EE5C4234C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4C3EABE04EC8D740C3536DE1 /* GameFeedback.swift */,
+				243574693C557CD77D405912 /* MazeCreation.swift */,
+				BFBF34B1DB67C0979EDE6019 /* MotionInput.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AA2A44C21AB78BE9373B41BD /* Rendering */ = {
+			isa = PBXGroup;
+			children = (
+				783A387703A54A78E0DF9A73 /* Board.metal */,
+				8A9FBAEFD42622BEA4D791A7 /* BoardMetalView.swift */,
+			);
+			path = Rendering;
+			sourceTree = "<group>";
+		};
+		CA620C259BE26D34ED921076 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E31DEF815B22D7D9E53D8DB3 /* CollectionView.swift */,
+				BA4998AD84E240C1E9490859 /* CreateMazeView.swift */,
+				6C2A66A160E97D140378F291 /* GameView.swift */,
+				F788B3E05698591059553F55 /* LiltRootView.swift */,
+				24A3C7B12BECDF693A6C370B /* LiltTheme.swift */,
+				530163CA47FC0D26492CA36B /* PlayHomeView.swift */,
+				FF8A8064845DF7754A30BFC8 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F4C04615713C827E8CD2C250 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A4C513916A213F40290E793 /* Models */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28749F18A954A3137BFD277D /* Lilt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E2C8D54142E194B0244E89E /* Build configuration list for PBXNativeTarget "Lilt" */;
+			buildPhases = (
+				335E17C5324F38CE93896D26 /* Sources */,
+				9E7DFF06EB62074C96D74595 /* Resources */,
+				DB733314E65D9AAF3DBD5A18 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lilt;
+			packageProductDependencies = (
+				1AA112500484EEE08EAA47F4 /* LiltCore */,
+				CE813EAC48D72B0D63053F43 /* OfflineIntelligence */,
+				D76196629B9A414BB7305921 /* OfflineIntelligenceMLX */,
+			);
+			productName = Lilt;
+			productReference = 52E413CC03F53309102079D9 /* Lilt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33474C1EC9D450133A7D2279 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					28749F18A954A3137BFD277D = {
+
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 92F33162CA1035D3FCE1BE20 /* Build configuration list for PBXProject "Lilt" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 8CE702A5C3E53EBEB4C9EDB6;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				6879D884A878BF4E4C28F968 /* XCLocalSwiftPackageReference "." */,
+				738F71EDD74C78BE0B102968 /* XCLocalSwiftPackageReference "../OfflineIntelligenceKit" */,
+				1680D987C58422A05BC33ACA /* XCLocalSwiftPackageReference "../OfflineIntelligenceKit/MLX" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 45723869355B6CCB9938CC33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28749F18A954A3137BFD277D /* Lilt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E7DFF06EB62074C96D74595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2942CD0C3C4FB266056BC5 /* Assets.xcassets in Resources */,
+				AB811DDDA6645EB8A61BF98F /* Board.metal in Resources */,
+				2C4BC8EDDBB2CC036179E889 /* Models in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		335E17C5324F38CE93896D26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8506A645A57D787B1CCD0B /* BoardMetalView.swift in Sources */,
+				5A84790BDC24917C97CABBAA /* CollectionView.swift in Sources */,
+				55A17AA56683637BE2691C56 /* CreateMazeView.swift in Sources */,
+				E1B3DD8A05B5E9B5AB7D2256 /* GameFeedback.swift in Sources */,
+				A5766089DD2012F4EB3219A4 /* GameSession.swift in Sources */,
+				AC54916A00DB4C800F8DC7BA /* GameView.swift in Sources */,
+				66B673377B5C43C110347817 /* LiltApp.swift in Sources */,
+				CD9061DFDFCF7444EF3A541E /* LiltRootView.swift in Sources */,
+				44D99802325D4A031B9C00B7 /* LiltTheme.swift in Sources */,
+				2612399EFCBF0E84C8AEB2BC /* MazeCreation.swift in Sources */,
+				3C6AA726F47B8C58156C8626 /* MotionInput.swift in Sources */,
+				F221FD3E0D3B0FD9625E27DF /* PlayHomeView.swift in Sources */,
+				96388367A96A23A3002B233F /* RunPersistence.swift in Sources */,
+				777E81BB2A4B06653A36406B /* SettingsView.swift in Sources */,
+				D891FD16851772EC79513156 /* StoredMaze.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3EF22CFB5840C4902252AAD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 4;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		4E77728DECB90D058052A5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 4;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		73DFD796E38C2B6BF3C9B6FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/Lilt.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.lilt;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D4BB8F4436695673BBAD2D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/Lilt.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.lilt;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E2C8D54142E194B0244E89E /* Build configuration list for PBXNativeTarget "Lilt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73DFD796E38C2B6BF3C9B6FC /* Debug */,
+				D4BB8F4436695673BBAD2D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		92F33162CA1035D3FCE1BE20 /* Build configuration list for PBXProject "Lilt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF22CFB5840C4902252AAD8 /* Debug */,
+				4E77728DECB90D058052A5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		1680D987C58422A05BC33ACA /* XCLocalSwiftPackageReference "../OfflineIntelligenceKit/MLX" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../OfflineIntelligenceKit/MLX;
+		};
+		6879D884A878BF4E4C28F968 /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+		738F71EDD74C78BE0B102968 /* XCLocalSwiftPackageReference "../OfflineIntelligenceKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../OfflineIntelligenceKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1AA112500484EEE08EAA47F4 /* LiltCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LiltCore;
+		};
+		CE813EAC48D72B0D63053F43 /* OfflineIntelligence */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OfflineIntelligence;
+		};
+		D76196629B9A414BB7305921 /* OfflineIntelligenceMLX */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OfflineIntelligenceMLX;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 33474C1EC9D450133A7D2279 /* Project object */;
+}
